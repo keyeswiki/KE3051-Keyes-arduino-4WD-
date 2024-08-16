@@ -7,8 +7,7 @@
    docs/产品介绍.md
    docs/主板及扩展板介绍.md
    docs/产品安装.md
-   docs/Arduino/开发环境配置.md
-   docs/Arduino/项目课程.md
+   docs/Arduino/Arduino.md
    docs/Arduino/index
    docs/Arduino/index
    docs/Arduino/index
