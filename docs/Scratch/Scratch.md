@@ -1,7 +1,225 @@
-# 项目课程
+# Scratch
+
+## 开发环境配置
+
+### 第一小节 KidsBlock软件安装 
+
+软件下载链接
+
+Windows系统软件：https://pan.baidu.com/s/1JJOss8q2zXNsObw24BHn3w
+
+提取码：keye
+
+Mac系统软件链接：https://pan.baidu.com/s/1Q7uXmj3mIDDqWz20om6YJw
+
+提取码：keye
+
+注意：这里是以Windows系统为例，macOS 系统可以以此作为参考。
+
+（1）双击下载好的软件“KidsBlock Desktop 1.1.4 Setup.exe”![](media/551a9f50b7806b3cd7f3b1eb1b8a3d43.png)。
+
+（2）先选中“为使用这台电脑的任何人安装”，再点击“下一步”。
+
+![](media/5868a1bfda48a42ef163f33f228cfc6a.png)
+
+（3）先点击“浏览（B）...”,选择安装的位置（我这里选择安装在C盘，你也可以选择安装在电脑的其他盘），再点击“安装”。这样，软件就在安装过程中。
+
+![](media/bc35a80ff1f77650c4f4778ba88ce15f.png)
+
+![](media/1f52414579ea8fa83660d2a35111fd50.png)
+
+（4）几秒种后，安装完成。点击“完成”就可以打开安装好的软件。
+
+![](media/e5221f246e9bd5286a6302ee527f9cf4.png)
+
+（5）如果出现电脑安全警报窗口，点击“允许访问”。这样就可以打开了软件页面。
+
+![](media/a2132540864426f437bd0befe711c7ab.png)
+
+![](media/b533432d1d34514ed7243b0d26f3893a.png)
+
+有更新软件时一般打开会自动提醒，为了软件能正常使用我们选择升级![](media/846685e3e9b0f18d155a7ecf389ca796.png)
+
+我们也可在设置中手动更新软件
+
+![](media/1143b889fd69e72473a4071055f8f19a.png)
+
+如果已经是最新版本则显示
+
+![](media/415745a84dbc153e57067dc86fc519d2.png)
+
+### 第二小节 KidsBlock软件的使用方法 
+
+（1）软件中各按钮的功能：
+
+![](media/a4ecabcc1a47a97a8035be4d4564a868.png)
+
+（2）点击![](media/3dd044ace633a5f7218b0d19a55ff9cf.png)可以选择语言![](media/61ae90fc9d6bb2d0e8ddb0862cbfe55c.png)“English”和“简体中文”。
+
+（3）点击![](media/ceea175e15c8425a1a70baaaf56d40b3.png)，选择点击“安装驱动”。（注意：如果电脑已经安装了驱动程序，则不需要再安装驱动；如果没有，则需要进行以下操作）
+
+A.在“设备驱动程序安装向导”页面选择点击“下一页”。
+
+![](media/3da8a9f64ac714ef7aa522bc32b4cede.png)
+
+2.  过一会儿，选择点击“完成”。
+
+![](media/e14d22b5c866ea15aefe2b048bab7a3b.png)
+
+3.  选择点击“下一页”。
+
+![](media/34cf2f8b6e6fa7a28e03bee8fb3146bb.png)
+
+4.  选择点击“完成”。
+
+![](media/1d1562c2614b811ff0cb43da449985a1.png)
+
+5.  如果出现安全页面，选择点击“允许”即可，然后选择点击“Install”。
+
+![](media/ff3e762d69acbc3cc49d7f50f2ac5914.png)
+
+![](media/55317031882e78e69fc63225e50219de.png)
+
+E.选择点击“安装”。
+
+![](media/6ffd47529f4dbac3831bd3f5917f6ed0.png)
+
+6.  过一会儿，点击“Finish”。
+
+![](media/06a890be5adedc1400ecd722634099e8.png)
+
+7.  选择点击“Extract”。
+
+![](media/de22f03179ae870d8bf19dc8c5cb6f63.png)
+
+8.  选择点击“下一页”。
+
+![](media/1e5129d4438529a1f5d7ec83acc49e78.png)
+
+9.  选择点击“我接受这个协议”后，点击“下一页”。
+
+![](media/dfb434043a34c1e941f0ca49ee224da6.png)
+
+10. 选择点击“完成”。
+
+![](media/73f59ba0f06c6b36d9a8ca80429194a5.png)
+
+11. 选择“安装”。
+
+![](media/5a7ee544df41f82915ad7a07c5367988.png)
+
+15. 过几秒钟后，驱动安装完成，点击“确定”即可。
+
+![](media/72f2d50822510f87b5320f674d24d8ea.png)
+
+（4）驱动安装完后，点击![](media/33193aae5cf46bccd050b84af65b9dde.png)进入主控板页面，可以选择需要添加的设备（控制板），本项目需要选择MecanumRobot (麦克纳姆轮小车)。先点击MecanumRobot(麦克纳姆轮小车)所处区域，后点击“连接”。这样MecanumRobot(麦克纳姆轮小车)已连接上，点击“返回编辑器”回到编码编辑器。这样，我们会发现![](media/e3d5380fcd0890ff6320185808d7fab9.png)变成![](media/a007c723131e3e7323ce323d07e71196.png)，同时![](media/8cac6f60c26e2b10d1b2dc313ea5eb03.png)变成![](media/4f8778ff131729b181ea6ec292614a3c.png)，说明MecanumRobot(麦克纳姆轮小车)和端口（COM）
+都已经连接上了。
+
+![](media/516c394c19c6f90e293c24561c3f3a87.png)
+
+![](media/70b7a585c79deb85d860b43a0392c1b3.png)
+
+![](media/e837e705e7618c09b382f0c4664c02c2.png)
+
+![](media/fab800d7dbbaaf6b2d8c9eefacf73af0.png)
+
+（5）假如MecanumRobot(麦克纳姆轮小车)已经连接上后，但是![](media/8cac6f60c26e2b10d1b2dc313ea5eb03.png)没有变成![](media/4f8778ff131729b181ea6ec292614a3c.png)，则需要手动点击![](media/8cac6f60c26e2b10d1b2dc313ea5eb03.png)来连接端口（COM）。先点击![](media/8cac6f60c26e2b10d1b2dc313ea5eb03.png)，在出现的对话页面中点击![](media/a034167a19e4c273d77848c3df421dc3.png)，连接成功后，会出现“已连接”页面，说明端口已连接上了。
+
+![](media/14bd8a112526e17fbce9d20262666b88.png)
+
+![](media/70b7a585c79deb85d860b43a0392c1b3.png)
+
+![](media/e837e705e7618c09b382f0c4664c02c2.png)
+
+![](media/fab800d7dbbaaf6b2d8c9eefacf73af0.png)
+
+（6）如果需要断开端口，先点击![](media/4f8778ff131729b181ea6ec292614a3c.png)，在出现的对话页面中点击“断开连接”。这样，端口就断开了。
+
+![](media/6eb098291c41c8f79c12a7ddb86e5f6d.png)
+
+![](media/326c3305ba5a9e44c8cc6f9fd647288c.png)
+
+（7）![](media/edf13a6361883d47ee8d7b127531bb0e.png)是添加传感器/模块和元件的扩展包，点击![](media/edf13a6361883d47ee8d7b127531bb0e.png)可以进入传感器/模块扩展库界面，点击传感器/模块所处区域，就可以添加对应的传感器/模块。例如需要添加超声波传感器模块，点击“超声波传感器”所处区域，“未加载”变成“已加载”，说明“超声波传感器”模块添加成功。
+
+![](media/824b32e62e0a204347fcb47b8b3aa4d9.png)
+![](media/b8069cdcaec709b8ff766f01bdaf9cbd.png)
+
+点击![](media/95039e92d5182ecb0bccc177aaec3f80.png)，可以回到代码编辑器界面，在模块区可以看到添加的“超声波传感器”模块。
+
+![](media/a44cdcb5c9cac2a187dba1f520c05354.png)
+![](media/f0f2f219e7e3f5669a9b7108db73cdc1.png)
+
+如果需要删除“超声波传感器”模块，只需要点击![](media/edf13a6361883d47ee8d7b127531bb0e.png)再次进入传感器/模块扩展库界面，点击“超声波传感器”所处区域，“已加载”变成“未加载”，则说明“超声波传感器”模块删除成功。
+
+![](media/3c5966e327bdc6423aff32c94a48f54d.png)
+![](media/62a0822242047cd856941c14ef6e3243.png)
+
+其他的传感器/模块和元器件的添加和删除，方法是一样的。
+
+（7）打开已有的SB3类型文件的方法：（推荐使用方法2，方法1打开时有时可能会丢失代码数据）
+
+方法1：鼠标左键双击SB3类型文件，这样就可以打开SB3类型文件。例如：需要打开![](media/1874abbb35ed2bb3a1bd5967f3a13181.png)文件，则只需要左键双击![](media/1874abbb35ed2bb3a1bd5967f3a13181.png)文件就可以直接打开。
+
+![](media/a99a1ff11f578e2ca8f26cce6a52bb4b.png)
+
+方法2：打开Kidsblock软件，点击“文件”，选择点击“从电脑中上传”，在电脑上选中需要打开的SB3类型文件（例如：![](media/1874abbb35ed2bb3a1bd5967f3a13181.png)文件）
+
+![](media/c8b69ae6e64fda3bae42967c3ad84d84.png)
+
+![](media/db2bdf119c14bbdb6aebc98343de38a0.png)
+
+![](media/b0b3ff386dbe4e3b59b8a45e1f4e9dc2.png)
+
+### 第三小节 启动你的第一个程序 
+
+(1)可以直接打开我们编写好的程序：点击文件下的从电脑中上传，然后找到目录下的![](media/0d5e411fcf5f60efca5d36584414dcdf.png)程序并打开
 
 
-## 第一课七彩灯
+
+
+
+
+
+
+|文件路径|文件名|
+|Scratch教程\1. 开发环境配置\Hello_World程序|Hello_World.sb3|
+
+</tbody>
+</table>
+
+![](media/d195c88c380aa0482740dc97d9acf86f.png)
+
+（2）上传程序：选择正确串口，波特率是：9600；MecanumRobot
+和端口都选择正确；然后点击上传程序，程序上传成功会提示上传成功。
+
+![](media/e416f8e112a3900318093a5cfa151b63.png)
+
+（3）实验结果：左下角监视窗口每隔0.5S打印一次“Hello World”
+
+![](media/46f7c6acd0850839a16ff9db499c4206.png)
+
+注意：这里是以MacOS系统软件下载安装为例
+
+1.  Mac系统软件下载之后，如下图。
+
+![](media/178f0b5fc894cc1fd786e1186e37f402.jpg)
+
+2.  双击KidsBlock的图标，出现下图，然后按住鼠标左键将KidsBlock     Desktop拖动到Applications里。
+
+![](media/f63bcac690f9076ceaafb8cf4261fd9b.jpg)
+
+3.  等待安装，安装完成后在启动台中可以看到如下安装好的KidsBlock图标。
+
+![](media/87729519705c0adfa10b20b40221c0de.jpg)
+
+
+
+
+
+## 项目课程
+
+
+### 第一课七彩灯
 
 1.1 项目介绍：
 
@@ -43,7 +261,7 @@
 
 
 
-## 第二课 WS2812 RGB灯
+### 第二课 WS2812 RGB灯
 
 1.1 项目介绍：
 
@@ -104,7 +322,7 @@
 
 
 
-## 第三课 伺服舵机
+### 第三课 伺服舵机
 
 1.1 项目介绍：
 
@@ -140,33 +358,19 @@ S：信号端的引脚，PWM信号控制，橙色（我们这里接到了D9）
 
 经过实测，舵机的脉冲范围为0.65ms~2.5ms。180度舵机，对应的控制关系是这样的：
 
-<table>
-<colgroup>
-<col />
-<col />
-<col />
-</colgroup>
-<tbody>
-<tr>
-<td>高电平时间</td>
-<td>舵机角度</td>
-<td>基准信号周期时间（20ms）</td>
-</tr>
-<tr>
-<td>0.65ms</td>
-<td>0度</td>
-<td>0.65ms高电平+19.35ms低电平</td>
-</tr>
-<tr>
-<td>1.5ms</td>
-<td>90度</td>
-<td>1.5ms高电平+18.5ms低电平</td>
-</tr>
-<tr>
-<td>2.5ms</td>
-<td>180度</td>
-<td>2.5ms高电平+17.5ms低电平</td>
-</tr>
+
+
+
+
+
+
+
+
+|高电平时间|舵机角度|基准信号周期时间（20ms）|
+|0.65ms|0度|0.65ms高电平+19.35ms低电平|
+|1.5ms|90度|1.5ms高电平+18.5ms低电平|
+|2.5ms|180度|2.5ms高电平+17.5ms低电平|
+
 </tbody>
 </table>
 
@@ -196,7 +400,7 @@ S：信号端的引脚，PWM信号控制，橙色（我们这里接到了D9）
 
 
 
-## 第四课 直流减速电机
+### 第四课 直流减速电机
 
 1.1 项目介绍：
 
@@ -238,7 +442,7 @@ S：信号端的引脚，PWM信号控制，橙色（我们这里接到了D9）
 
 
 
-## 第五课 循迹传感器
+### 第五课 循迹传感器
 
 1.1 项目介绍：
 
@@ -298,7 +502,7 @@ S：信号端的引脚，PWM信号控制，橙色（我们这里接到了D9）
 
 
 
-## 第六课 循迹智能车
+### 第六课 循迹智能车
 
 ![](media/2cbed09c1cb317585d89c447ad7c4cf1.jpg)
 
@@ -346,7 +550,7 @@ S：信号端的引脚，PWM信号控制，橙色（我们这里接到了D9）
 
 
 
-## 第七课 超声波传感器
+### 第七课 超声波传感器
 
 1.1 项目介绍：
 
@@ -425,7 +629,7 @@ HC-SR04或超声波传感器正在广泛的电子项目中用于创建障碍物�
 
 
 
-## 第八课 超声波跟随智能车
+### 第八课 超声波跟随智能车
 
 ![](media/f481e2cb24ef18e5045321719c5eda8a.jpg)
 
@@ -475,7 +679,7 @@ HC-SR04或超声波传感器正在广泛的电子项目中用于创建障碍物�
 
 
 
-## 第九课 超声波避障智能车
+### 第九课 超声波避障智能车
 
 ![](media/48cb81bec43c617bc34ff2e5abe7e2b4.jpg)
 
@@ -529,7 +733,7 @@ HC-SR04或超声波传感器正在广泛的电子项目中用于创建障碍物�
 
 
 
-## 第十课 红外接收
+### 第十课 红外接收
 
 1.1 项目介绍：
 
@@ -614,7 +818,7 @@ HC-SR04或超声波传感器正在广泛的电子项目中用于创建障碍物�
 
 
 
-## 第十一课 红外遥控智能车
+### 第十一课 红外遥控智能车
 
 ![](media/6c4c7e1ec48694ae39fc068413751973.jpg)
 
@@ -660,7 +864,7 @@ HC-SR04或超声波传感器正在广泛的电子项目中用于创建障碍物�
 
 
 
-## 第十二课 蓝牙APP控制麦轮车
+### 第十二课 蓝牙APP控制麦轮车
 
 ![](media/f1647527e7b76cf69e343ddda1d3b68c.jpg)
 
@@ -721,36 +925,23 @@ POS 设备；
 
 将蓝牙模块连接到开发板：
 
-<table>
-<colgroup>
-<col />
-<col />
-</colgroup>
-<tbody>
-<tr>
-<td>Uno</td>
-<td>BT24</td>
-</tr>
-<tr>
-<td>TX</td>
-<td>RX</td>
-</tr>
-<tr>
-<td>RX</td>
-<td>TX</td>
-</tr>
-<tr>
-<td>VCC</td>
-<td>5V</td>
-</tr>
-<tr>
-<td>GND</td>
-<td>GND</td>
-</tr>
+
+
+
+
+
+
+
+|Uno|BT24|
+|TX|RX|
+|RX|TX|
+|VCC|5V|
+|GND|GND|
+
 </tbody>
 </table>
 
-### 1.3 APP: 
+#### 1.3 APP: 
 
 有关APP的具体下载安装方法及使用方法，请参考文件夹“7. APP”。
 
