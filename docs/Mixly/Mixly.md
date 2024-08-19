@@ -1,4 +1,4 @@
-# Mixly
+# Mixly 教程
 
 ## Mixly软件
 
@@ -619,33 +619,19 @@ S：信号端的引脚，PWM信号控制，橙色（我们这里接到了D9）
 
 经过实测，舵机的脉冲范围为0.65ms~2.5ms。180度舵机，对应的控制关系是这样的：
 
-<table>
-<colgroup>
-<col />
-<col />
-<col />
-</colgroup>
-<tbody>
-<tr>
-<td>高电平时间</td>
-<td>舵机角度</td>
-<td>基准信号周期时间（20ms）</td>
-</tr>
-<tr>
-<td>0.65ms</td>
-<td>0度</td>
-<td>0.65ms高电平+19.35ms低电平</td>
-</tr>
-<tr>
-<td>1.5ms</td>
-<td>90度</td>
-<td>1.5ms高电平+18.5ms低电平</td>
-</tr>
-<tr>
-<td>2.5ms</td>
-<td>180度</td>
-<td>2.5ms高电平+17.5ms低电平</td>
-</tr>
+
+
+
+
+
+
+
+
+|高电平时间|舵机角度|基准信号周期时间（20ms）|
+|0.65ms|0度|0.65ms高电平+19.35ms低电平|
+|1.5ms|90度|1.5ms高电平+18.5ms低电平|
+|2.5ms|180度|2.5ms高电平+17.5ms低电平|
+
 </tbody>
 </table>
 
@@ -998,32 +984,19 @@ POS 设备；
 
 将蓝牙模块连接到开发板：
 
-<table>
-<colgroup>
-<col />
-<col />
-</colgroup>
-<tbody>
-<tr>
-<td>Uno</td>
-<td>BT24</td>
-</tr>
-<tr>
-<td>TX</td>
-<td>RX</td>
-</tr>
-<tr>
-<td>RX</td>
-<td>TX</td>
-</tr>
-<tr>
-<td>VCC</td>
-<td>5V</td>
-</tr>
-<tr>
-<td>GND</td>
-<td>GND</td>
-</tr>
+
+
+
+
+
+
+
+|Uno|BT24|
+|TX|RX|
+|RX|TX|
+|VCC|5V|
+|GND|GND|
+
 </tbody>
 </table>
 
