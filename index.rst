@@ -9,12 +9,9 @@
    docs/产品安装.md
    docs/Arduino/Arduino.md
    docs/Scratch/Scratch.md
-   docs/Scratch/index
-   docs/Scratch/index
-   docs/Arduino/index
-   docs/Arduino/index
-   docs/keyestudio/index
-   docs/keyestudio/index
+   docs/Mixly/Mixly软件.md
+   docs/Mixly/index
+   docs/Mixly/index
    docs/FAQ.md
 
 
