@@ -10,8 +10,7 @@
    docs/Arduino/Arduino.md
    docs/Scratch/Scratch.md
    docs/Mixly/Mixly软件.md
-   docs/Mixly/index
-   docs/Mixly/index
+   docs/Mixly/项目课程.md
    docs/FAQ.md
 
 
