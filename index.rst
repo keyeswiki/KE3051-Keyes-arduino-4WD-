@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: keyestudio docs
+   :caption: keyes wiki
 
    README.md
    docs/产品介绍.md
