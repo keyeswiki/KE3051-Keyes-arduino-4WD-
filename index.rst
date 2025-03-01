@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: keyes wiki
+   :caption: Keyes 4WD麦克纳姆轮小车基于Arduino
 
    README.md
    docs/产品介绍.md
