@@ -1464,14 +1464,12 @@ void loop() {
 */
 #include "MecanumCar_v2.h"
 #include <Adafruit_NeoPixel.h>
-#include "ir.h"
 #include "Servo.h"
 
 mecanumCar mecanumCar(3, 2);  //sda-->D3,scl-->D2
 //创建一个用于控制rgb的类,名为rgb_2812,共4个灯珠,引脚连接到D10
 Adafruit_NeoPixel rgb_2812 = Adafruit_NeoPixel(4, 10, NEO_GRB + NEO_KHZ800);
 Servo myservo;
-IR IRreceive(A3);//红外接收接A3
 
 /*******超声波传感器接口*****/
 #define EchoPin  13  //ECHO to D13
@@ -1509,18 +1507,7 @@ void setup() {
 }
 
 void loop() {
-  int key = IRreceive.getKey();
-  if (key != -1) {
-    Serial.println(key);
-    switch (key)
-    {
-      case 64: mecanumCar.Stop();       break;  //停止
-      case 70: mecanumCar.Advance();    break;  //前进
-      case 21: mecanumCar.Back();       break;  //后退
-      case 68: mecanumCar.Turn_Left();  break;  //左转
-     case 67: mecanumCar.Turn_Right(); break;  //右转
-   }
- }
+
   if (Serial.available())//如果接收缓冲区非空
   {
     ble_val = Serial.read();//读取蓝牙数据
