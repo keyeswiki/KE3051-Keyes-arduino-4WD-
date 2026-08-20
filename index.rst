@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: KE3051 Keyes 4WD麦克纳姆轮小车基于Arduino
+   :caption: Keyes 4WD麦克纳姆轮小车基于Arduino
 
    README.md
    docs/1.产品介绍.md
